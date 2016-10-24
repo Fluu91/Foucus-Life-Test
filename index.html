@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/styles.css"/>
+	<script src="js/jquery.js"></script>
+	<script src="js/calculate.js"></script>
+	</head>
+<body>
+     
+	<div id="container">
+    <header>
+	    <h1>Focus</h1>
+	</header>
+
+						
+
+	<div class="form">
+		<ul>
+		
+		    <li>
+			    <select name ="plans">
+				    <option value="babycare">Babycare Plan</option>
+				    <option value="educare">Educare Plan</option>
+				    <option value="endowment">Endowment Plan</option>	
+			    </select>
+			</li>
+		    
+			<li>
+				<label for="quantity" id="for_label">Quantity:</label>
+				<input name="quantity" type="text" id="quantity"/>
+			</li>
+			
+			<li>
+				<label for="price" id="price_label">Price:</label>
+				<input name="price" type="text" id="price"/>
+			</li>
+			
+			<li>
+				<label for="value" id="value_label">Value:</label>
+				<input name="value" type="text" id="value"/>
+			</li>
+			
+			<li>
+				<label for="levy" id="levy_label">Levy:</label>
+				<input name="levy" type="text" id="levy"/>
+			</li>
+			
+			<li>
+				<label for="fee" id="fee_label">Policy Fee:</label>
+				<input name="fee" type="text" id="fee"/>
+			</li>
+			
+			<li>
+				<label for="total" id="total_label">Total:</label>
+				<input name="total" type="text" id="total"/>
+			</li>
+			
+			<li>
+				<button type="button" value="button" class="calculate">Calculate</button>
+				<p></p>
+				<button type="reset" value="Reset" class="reset" >Reset</button>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
